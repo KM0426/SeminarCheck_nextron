@@ -1,0 +1,12 @@
+appId: com.example.nextron
+productName: Check Seminer
+copyright: Copyright © 2024 Kazuya Mizuguchi
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
