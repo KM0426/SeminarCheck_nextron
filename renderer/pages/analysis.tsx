@@ -252,14 +252,14 @@ export default function AnalysisPage() {
                                 ファイルをアップロード
                             </Typography>
                             <Box display="flex" flexDirection="column" gap={2}>
-                                <label>
-                                    <input
+                                <label>File: </label>
+                                <input
                                         type="file"
+                                        name="file"
                                         onChange={(e) =>
                                             handleFileChange('seminar', e.target.files[0])
                                         }
                                     />
-                                </label>
                             </Box>
                         </CardContent>
                         <CardActions>
