@@ -23,5 +23,5 @@ export function normalizeName(name: string): string {
     // 大文字を小文字に変換
     normalized = normalized.toLowerCase();
 
-    return normalized;
+    return normalized.replace(/[\(\（][^\)\）]*[\)\）]/g, "");;
 }
